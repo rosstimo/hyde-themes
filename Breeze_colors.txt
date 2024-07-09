@@ -1,0 +1,122 @@
+File: /usr/share/themes/Breeze/settings.ini
+
+File: /usr/share/themes/Breeze/window_decorations.css
+
+File: /usr/share/themes/Breeze/gtk-4.0/gtk-dark.css
+
+File: /usr/share/themes/Breeze/gtk-4.0/gtk.css
+  rgba(37, 164, 230, 0.35)
+  #e3e5e7
+  rgba(255, 255, 255, 0.4)
+  #eff0f1
+  #f67400
+  rgba(61, 174, 233, 0.5)
+  #707d8a
+  #cdcdce
+  rgba(214, 46, 63, 0.35)
+  rgba(32, 35, 37, 0.35)
+  rgba(0, 0, 0, 0.1)
+  #9b59b6
+  rgba(179, 182, 183, 0.35)
+  #add
+  #da4453
+  #e8e8e8
+  rgba(35, 158, 87, 0.35)
+  #fcfcfc
+  #2980b9
+  rgba(255, 255, 255, 0.7)
+  rgba(0, 0, 0, 0.125)
+  rgba(0, 0, 0, 0.3)
+  #d8dadd
+  rgba(224, 105, 0, 0.35)
+  #232629
+  rgba(255, 255, 255, 0.5)
+  #e5e5e5
+  rgba(255, 255, 255, 0.3)
+  rgba(255, 255, 255, 0)
+  rgba(0, 0, 0, 0.5)
+  #3daee9
+  rgba(0, 0, 0, 0.27)
+  rgba(102, 114, 125, 0.35)
+  #27ae60
+  #c6c8c9
+  #f7f7f7
+  rgba(0, 0, 0, 0.17)
+
+File: /usr/share/themes/Breeze/gtk-2.0/gtkrc
+  #ffffff
+  #3daee9
+  #a6a8a9
+  #232629
+  #aeafb0
+  #bcbdbf
+  #b0b1b2
+  #eff0f1
+  #e7e7e7
+  #f7f7f7
+
+File: /usr/share/themes/Breeze/gtk-2.0/widgets/default
+
+File: /usr/share/themes/Breeze/gtk-2.0/widgets/buttons
+
+File: /usr/share/themes/Breeze/gtk-2.0/widgets/range
+
+File: /usr/share/themes/Breeze/gtk-2.0/widgets/misc
+
+File: /usr/share/themes/Breeze/gtk-2.0/widgets/styles
+
+File: /usr/share/themes/Breeze/gtk-2.0/widgets/progressbar
+
+File: /usr/share/themes/Breeze/gtk-2.0/widgets/entry
+
+File: /usr/share/themes/Breeze/gtk-2.0/widgets/toolbar
+
+File: /usr/share/themes/Breeze/gtk-2.0/widgets/notebook
+
+File: /usr/share/themes/Breeze/gtk-2.0/widgets/scrollbar
+
+File: /usr/share/themes/Breeze/gtk-2.0/widgets/menu
+
+File: /usr/share/themes/Breeze/gtk-3.0/gtk-dark.css
+
+File: /usr/share/themes/Breeze/gtk-3.0/gtk.css
+  rgba(37, 164, 230, 0.35)
+  #e3e5e7
+  rgba(255, 255, 255, 0.4)
+  #eff0f1
+  #f67400
+  rgba(61, 174, 233, 0.5)
+  #707d8a
+  #cdcdce
+  rgba(214, 46, 63, 0.35)
+  rgba(32, 35, 37, 0.35)
+  rgba(0, 0, 0, 0.1)
+  #9b59b6
+  rgba(179, 182, 183, 0.35)
+  #add
+  #da4453
+  #e8e8e8
+  rgba(35, 158, 87, 0.35)
+  rgba(0, 0, 0, 0.25)
+  #fcfcfc
+  #2980b9
+  rgba(255, 255, 255, 0.7)
+  rgba(0, 0, 0, 0.125)
+  rgba(0, 0, 0, 0.3)
+  #d8dadd
+  rgba(224, 105, 0, 0.35)
+  #232629
+  rgba(255, 255, 255, 0.5)
+  #e5e5e5
+  rgba(255, 255, 255, 0.3)
+  rgba(0, 0, 0, 0.15)
+  rgba(255, 255, 255, 0)
+  rgba(0, 0, 0, 0.5)
+  #3daee9
+  rgba(0, 0, 0, 0.27)
+  rgba(102, 114, 125, 0.35)
+  #27ae60
+  #c6c8c9
+  #f7f7f7
+  rgba(0, 0, 0, 0.17)
+

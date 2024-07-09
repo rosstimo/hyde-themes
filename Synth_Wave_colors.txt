@@ -1,86 +1,314 @@
-File: /home/tim/Documents/code/repos/hyde-themes/Configs/.config/hyde/themes/Synth Wave/waybar.theme
-  #495495
-  #463465
-  rgba(0, 0, 0, 0)
-  #03edf9
-  #262335
-  #72f1b8
-  #ff7edb
+File: /home/tim/.themes/Synth-Wave/gtk-2.0/assets.txt
 
-File: /home/tim/Documents/code/repos/hyde-themes/Configs/.config/hyde/themes/Synth Wave/rofi.theme
-  #f97e72ff
-  #ff7edbff
-  #03edf9ff
-  #72f1b8ff
-  #495495ff
-  #262335e6
+File: /home/tim/.themes/Synth-Wave/gtk-2.0/main.rc
 
-File: /home/tim/Documents/code/repos/hyde-themes/Configs/.config/hyde/themes/Synth Wave/hypr.theme
-  0xffff7edb
-  rgba(03edf9ff)
-  rgba(614D85cc)
-  rgba(495495cc)
-  rgba(72f1b8ff)
-
-File: /home/tim/Documents/code/repos/hyde-themes/Configs/.config/hyde/themes/Synth Wave/kitty.theme
-  #fe4450
+File: /home/tim/.themes/Synth-Wave/gtk-2.0/gtkrc
+  #bcbdbc
+  #fbaba3
   #f97e72
-  #f3e70f
-  #03edf9
-  #ffffff
-  #262335
-  #72f1b8
-  #ff7edb
-  #614D85
-  #232530
-  #fede5d
-
-File: /home/tim/Documents/code/repos/hyde-themes/Configs/.config/hyde/themes/Synth Wave/kvantum/kvconfig.theme
-  #787878
-  #fe4450
-  #495495
-  #D18616
-  #696969
-  #efefef
-  #03edf9
-  #ffffff
-  #262335
-  #72f1b8
-  #241b2f
-  #333333
-  #880088
-
-File: /home/tim/Documents/code/repos/hyde-themes/Configs/.config/hyde/themes/Synth Wave/kvantum/kvantum.theme
-  #26272a
-  #212121
-  #4285f4
-  #c1c1c1
+  #342b47
+  #898b8b
   #000000
-  #646464
-  #d1d1d1
-  #f97e72
-  #1f1f1f
-  #03edf9
-  #72f1b8
-  #b74aff
-  #cccccc
-  #dfdfdf
-  #5a5a5a
-  #5a616e
-  #1a1a1a
-  #b6b6b6
-  #333333
-  #343031
-  #525252
-  #fe4450
+  #2A2139
+  #7b7783
+  #372d4b
   #ffffff
-  #262335
-  #1e1e1e
-  #acb1bc
-  #f04a50
-  #ff7edb
+  #736C81
+  #A6A2AA
+  #CCCCCC
+  #2f2640
+  #2c3133
+
+File: /home/tim/.themes/Synth-Wave/gtk-2.0/hacks.rc
+
+File: /home/tim/.themes/Synth-Wave/gtk-2.0/hacks-dark.rc
+
+File: /home/tim/.themes/Synth-Wave/gtk-2.0/apps.rc
+  #cbd2d9
+
+File: /home/tim/.themes/Synth-Wave/gnome-shell/gnome-shell.css
+  #4e3d69
+  #41494c
+  rgba(0, 0, 0, 0.8)
+  #7b7783
+  rgba(13, 13, 13, 0.7)
+  rgba(63, 50, 86, 0.96)
+  #999999
+  #15101c
+  #03edf9
+  rgba(255, 255, 255, 0)
+  rgba(255, 255, 255, 0.1)
+  rgba(18, 14, 25, 0.2)
+  rgba(204, 204, 204, 0.8)
+  rgba(255, 255, 255, 0.16)
+  rgba(18, 14, 25, 0.86)
+  #fc42b2
+  rgba(252, 41, 168, 0.3)
+  #4b3b66
+  #251d33
+  #372d4b
+  rgba(42, 33, 57, 0.96)
+  #acaaaf
+  rgba(0, 0, 0, 0)
+  rgba(0, 0, 0, 0.3)
+  #ef0391
+  #bfbfbf
+  #ff4237
+  #b3b3b3
+  rgba(42, 33, 57, 0.76)
+  rgba(42, 33, 57, 0.3)
+  rgba(126, 21, 84, 0.7)
+  rgba(252, 41, 168, 0.25)
+  rgba(55, 45, 75, 0.5)
+  #fc29a8
+  rgba(18, 14, 25, 0.8)
+  rgba(42, 33, 57, 0.26)
+  #211b2d
+  rgba(204, 204, 204, 0.5)
+  #17121f
+  #f75141
+  rgba(23, 18, 31, 0.9)
+  #634e87
+  #fbaba3
+  #ffee0a
+  rgba(54, 42, 73, 0.56)
+  rgba(18, 14, 25, 0.46)
+  #574576
+  #555
+  #b8b8b8
+  rgba(3, 237, 249, 0.25)
+  #a6a6a6
+  #2a2139
+  #000
+  #ff382d
+  #f2f2f2
+  #362a49
+  rgba(204, 204, 204, 0.1)
+  rgba(204, 204, 204, 0.15)
+  #ffffff
+  #1e1829
+  rgba(0, 0, 0, 0.2)
+  #8b8891
+  #fafafa
+  rgba(126, 21, 84, 0.5)
+  rgba(204, 204, 204, 0.7)
+  rgba(3, 237, 249, 0.4)
+  rgba(255, 255, 255, 0.3)
+  rgba(204, 204, 204, 0.2)
+  #120e19
+  #423459
+  rgba(0, 0, 0, 0.7)
+  #fc109e
+  rgba(255, 255, 255, 0.7)
+  rgba(204, 204, 204, 0.05)
+  rgba(54, 42, 73, 0.96)
+  #36243e
+  #e6e6e6
+  #0d0d0d
+  rgba(0, 0, 0, 0.01)
+  #f97e72
+  rgba(0, 0, 0, 0.4)
   #fff
-  #333
-  #989898
-  #666666
+  #ccc
+  rgba(42, 33, 57, 0.86)
+  rgba(0, 0, 0, 0.6)
+  #231b2f
+  #2f2640
+  rgba(42, 33, 57, 0.5)
+  rgba(54, 36, 62, 0.8)
+  rgba(204, 204, 204, 0.3)
+  #a1a1a1
+  #d9d9d9
+  rgba(0, 0, 0, 0.5)
+
+File: /home/tim/.themes/Synth-Wave/gtk-3.0/gtk.css
+  rgba(238, 237, 240, 0.762)
+  #2e253e
+  #4e3d69
+  rgba(139, 136, 145, 0.2)
+  rgba(255, 255, 255, 0.6)
+  rgba(179, 179, 179, 0)
+  #5d6b6c
+  rgba(123, 119, 131, 0.2)
+  rgba(204, 204, 204, 0.4)
+  rgba(255, 56, 45, 0.8)
+  #534c5e
+  rgba(223, 221, 226, 0.61325)
+  rgba(252, 41, 168, 0.1)
+  #a4a2a8
+  rgba(255, 249, 81, 0.85)
+  rgba(42, 33, 57, 0.1)
+  #ff5047
+  #6a6a6a
+  rgba(0, 0, 0, 0.05)
+  #75bf15
+  #191422
+  #7b7783
+  rgba(18, 14, 25, 0.9)
+  rgba(235, 235, 235, 0.37)
+  #f90d00
+  #83d618
+  #a8a8a8
+  #15101c
+  #03edf9
+  rgba(255, 255, 255, 0)
+  #463d58
+  rgba(255, 255, 255, 0.1)
+  #908b98
+  #4a4356
+  #bed2a3
+  rgba(78, 78, 78, 0.775)
+  rgba(145, 139, 156, 0.405)
+  rgba(235, 234, 237, 0.7025)
+  rgba(128, 128, 128, 0.3)
+  #aeacb2
+  #2f4c08
+  rgba(18, 14, 25, 0.5)
+  rgba(18, 14, 25, 0.3)
+  rgba(248, 248, 249, 0.881)
+  rgba(204, 204, 204, 0.8)
+  #729fcf
+  #a7a5ac
+  #fff951
+  rgba(3, 237, 249, 0)
+  #68558e
+  rgba(117, 191, 21, 0.25)
+  #5a4a7b
+  #e6fdfe
+  #372d4b
+  rgba(70, 61, 88, 0.5)
+  #acaaaf
+  rgba(0, 0, 0, 0)
+  #5b5565
+  rgba(255, 249, 81, 0.25)
+  #ea716e
+  rgba(220, 218, 223, 0.61325)
+  rgba(252, 41, 168, 0)
+  rgba(255, 255, 255, 0.86)
+  rgba(0, 0, 0, 0.3)
+  rgba(255, 255, 255, 0.93)
+  #bdbcbf
+  #342b47
+  #08070b
+  #4a90d9
+  #322844
+  rgba(204, 204, 204, 0.45)
+  rgba(255, 255, 255, 0.4)
+  rgba(204, 204, 204, 0.07)
+  #dfead1
+  rgba(123, 119, 131, 0.45)
+  rgba(255, 249, 81, 0.45)
+  #eea7a5
+  #231c30
+  rgba(255, 255, 255, 0.65)
+  rgba(242, 242, 242, 0.3)
+  rgba(23, 18, 31, 0.3)
+  rgba(252, 41, 168, 0.25)
+  #fc29a8
+  #312742
+  rgba(152, 147, 159, 0.79)
+  rgba(55, 45, 75, 0.7)
+  #add
+  #e13632
+  #403558
+  rgba(18, 14, 25, 0.8)
+  #211b2d
+  #17121f
+  #de2521
+  #fbaba3
+  #6e6978
+  rgba(3, 237, 249, 0.45)
+  #ffee0a
+  rgba(255, 255, 255, 0.58)
+  rgba(230, 230, 230, 0.3)
+  #939393
+  rgba(74, 67, 87, 0.2)
+  #74707e
+  rgba(255, 255, 255, 0.72)
+  #555
+  rgba(0, 0, 0, 0.07)
+  #67a812
+  rgba(255, 255, 255, 0.05)
+  rgba(182, 182, 182, 0.8)
+  #362c4a
+  rgba(191, 191, 191, 0.3)
+  rgba(255, 255, 255, 0.25)
+  rgba(0, 0, 0, 0.1)
+  #ff2014
+  #0b090f
+  #6ca91d
+  #2a2139
+  #ad0900
+  #2d0200
+  #ff382d
+  #362a49
+  #a6a2aa
+  #fef6b6
+  rgba(204, 204, 204, 0.1)
+  #9c98a4
+  #676173
+  rgba(0, 0, 0, 0.9)
+  #ffffff
+  rgba(255, 238, 10, 0.25)
+  rgba(255, 255, 255, 0.79)
+  #1e1829
+  #d5231f
+  rgba(0, 0, 0, 0.2)
+  rgba(117, 191, 21, 0.8)
+  #8b8891
+  rgba(123, 119, 131, 0.3)
+  #fafafa
+  rgba(3, 237, 249, 0.85)
+  #ededed
+  rgba(255, 56, 45, 0.25)
+  #f8d3d3
+  rgba(252, 41, 168, 0.85)
+  rgba(255, 255, 255, 0.3)
+  #e3f2d0
+  #61981a
+  #748788
+  #392f4e
+  #120e19
+  #90e720
+  #1588
+  #98bc6a
+  #423459
+  #2c243c
+  rgba(0, 0, 0, 0.7)
+  rgba(204, 204, 204, 0.05)
+  #f1f3f3
+  rgba(78, 61, 105, 0.3)
+  rgba(179, 179, 179, 0.3)
+  rgba(155, 150, 165, 0.405)
+  #1473
+  #36243e
+  #b1b09f
+  rgba(139, 134, 151, 0.405)
+  #4a4357
+  #599110
+  rgba(255, 255, 255, 0.5)
+  #e0e0e0
+  #f97e72
+  #9a8b94
+  #ffd7d5
+  rgba(252, 41, 168, 0.45)
+  rgba(230, 230, 230, 0)
+  rgba(0, 0, 0, 0.4)
+  #ccc
+  #ff6860
+  rgba(0, 0, 0, 0.6)
+  rgba(176, 173, 182, 0.51)
+  #231b2f
+  #2f2640
+  #5b8f19
+  rgba(230, 230, 230, 0.162)
+  #918f78
+  rgba(0, 0, 0, 0.858824)
+  rgba(204, 204, 204, 0.3)
+  #eeeeec
+  #827d8c
+  #5a5369
+  #857f8e
+  #888a85
+  rgba(0, 0, 0, 0.5)
 

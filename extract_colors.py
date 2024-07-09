@@ -2,7 +2,7 @@ import re
 import os
 import argparse
 import logging
-import subprocess
+import mimetypes
 
 def extract_colors(css_content):
     # Regular expressions for different color formats
@@ -27,18 +27,15 @@ def process_file(file_path):
         css_content = file.read()
     return extract_colors(css_content)
 
-def is_plain_text(file_path):
-    try:
-        result = subprocess.run(['file', '--mime-type', file_path], capture_output=True, text=True)
-        return 'text/plain' in result.stdout
-    except Exception as e:
-        logging.error(f"Error checking file type for {file_path}: {e}")
-        return False
+def is_text_file(file_path):
+    mime_type, _ = mimetypes.guess_type(file_path)
+    return mime_type is None or mime_type.startswith('text/'), mime_type
+    # return mime_type is not None and mime_type.startswith('text/'), mime_type
 
 def main():
     # Set up argument parser
-    parser = argparse.ArgumentParser(description="Extract unique color codes from a plain text file or directory.")
-    parser.add_argument('input_path', help="Path to the input plain text file or directory")
+    parser = argparse.ArgumentParser(description="Extract unique color codes from a text file or directory.")
+    parser.add_argument('input_path', help="Path to the input text file or directory")
     parser.add_argument('output_file', help="Path to the output file where unique colors will be listed")
     parser.add_argument('-v', '--verbose', action='count', default=0, help="Increase output verbosity (e.g., -v, -vv, -vvv)")
     
@@ -58,16 +55,26 @@ def main():
         for root, _, files in os.walk(args.input_path):
             for file in files:
                 file_path = os.path.join(root, file)
-                if is_plain_text(file_path):
-                    logging.debug(f"Processing file: {file_path}")
-                    colors_by_file[file_path] = process_file(file_path)
+                is_text, mime_type = is_text_file(file_path)
+                if is_text:
+                    logging.debug(f"Processing file: {file_path} (MIME type: {mime_type})")
+                    try:
+                        colors_by_file[file_path] = process_file(file_path)
+                    except Exception as e:
+                        logging.error(f"Error processing file {file_path}: {e}")
+                else:
+                    logging.debug(f"Skipping file: {file_path} (MIME type: {mime_type})")
     else:
-        if is_plain_text(args.input_path):
-            logging.info(f"Processing file: {args.input_path}")
-            # Process a single file
-            colors_by_file[args.input_path] = process_file(args.input_path)
+        is_text, mime_type = is_text_file(args.input_path)
+        if is_text:
+            logging.info(f"Processing file: {args.input_path} (MIME type: {mime_type})")
+            try:
+                # Process a single file
+                colors_by_file[args.input_path] = process_file(args.input_path)
+            except Exception as e:
+                logging.error(f"Error processing file {args.input_path}: {e}")
         else:
-            logging.error(f"The file {args.input_path} is not a plain text file.")
+            logging.error(f"The file {args.input_path} is not a text file (MIME type: {mime_type}).")
             return
     
     # Write unique colors to the output file, organized by file path
