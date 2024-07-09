@@ -1,0 +1,86 @@
+File: /home/tim/Documents/code/repos/hyde-themes/Configs/.config/hyde/themes/Synth Wave/waybar.theme
+  #495495
+  #463465
+  rgba(0, 0, 0, 0)
+  #03edf9
+  #262335
+  #72f1b8
+  #ff7edb
+
+File: /home/tim/Documents/code/repos/hyde-themes/Configs/.config/hyde/themes/Synth Wave/rofi.theme
+  #f97e72ff
+  #ff7edbff
+  #03edf9ff
+  #72f1b8ff
+  #495495ff
+  #262335e6
+
+File: /home/tim/Documents/code/repos/hyde-themes/Configs/.config/hyde/themes/Synth Wave/hypr.theme
+  0xffff7edb
+  rgba(03edf9ff)
+  rgba(614D85cc)
+  rgba(495495cc)
+  rgba(72f1b8ff)
+
+File: /home/tim/Documents/code/repos/hyde-themes/Configs/.config/hyde/themes/Synth Wave/kitty.theme
+  #fe4450
+  #f97e72
+  #f3e70f
+  #03edf9
+  #ffffff
+  #262335
+  #72f1b8
+  #ff7edb
+  #614D85
+  #232530
+  #fede5d
+
+File: /home/tim/Documents/code/repos/hyde-themes/Configs/.config/hyde/themes/Synth Wave/kvantum/kvconfig.theme
+  #787878
+  #fe4450
+  #495495
+  #D18616
+  #696969
+  #efefef
+  #03edf9
+  #ffffff
+  #262335
+  #72f1b8
+  #241b2f
+  #333333
+  #880088
+
+File: /home/tim/Documents/code/repos/hyde-themes/Configs/.config/hyde/themes/Synth Wave/kvantum/kvantum.theme
+  #26272a
+  #212121
+  #4285f4
+  #c1c1c1
+  #000000
+  #646464
+  #d1d1d1
+  #f97e72
+  #1f1f1f
+  #03edf9
+  #72f1b8
+  #b74aff
+  #cccccc
+  #dfdfdf
+  #5a5a5a
+  #5a616e
+  #1a1a1a
+  #b6b6b6
+  #333333
+  #343031
+  #525252
+  #fe4450
+  #ffffff
+  #262335
+  #1e1e1e
+  #acb1bc
+  #f04a50
+  #ff7edb
+  #fff
+  #333
+  #989898
+  #666666
+
