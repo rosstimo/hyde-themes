@@ -1,0 +1,15 @@
+
+$HOME/.config/kvantum/theme.conf|${scrDir}/kvantumconfgen.sh
+@define-color bar-bg rgba(0, 0, 0, 0);
+
+@define-color main-bg #2E3440;
+@define-color main-fg #D8DEE9;
+
+@define-color wb-act-bg #81A1C1;
+@define-color wb-act-fg #4C566A;
+
+@define-color wb-hvr-bg #A3BE8C;
+@define-color wb-hvr-fg #4C566A;
+
+<!-- Example updated SVG style attributes -->
+<path id="rect43263" style="opacity:0.1;fill:#D8DEE9;stroke:none;stroke-width:0.0943911;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000;fill-opacity:1.0;stop-opacity:1.0" d="m 130,99 c -3.324,0 -6,2.676 -6,6 h 6 z" transform="scale(0.26458333)" />
